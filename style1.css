@@ -1,0 +1,223 @@
+*{margin: 0; padding: 0;} 
+
+/*==== Header =====*/
+
+body{
+	font-family: "Times New Roman", Times, serif;
+	overflow: scroll;
+}
+.header{
+	background-color:#56a4fe;
+	width: 100%;
+	min-height: 88px;
+	position: relative;
+}
+
+.title{
+   background-color: #56a4fe;
+   width: 100%;
+   min-height: 88px;
+   font-size: 18px;
+   color: #fff;
+   line-height: 90px;
+   padding-left: 8px; 
+   font-weight: bold;
+   position: relative;
+}
+.nav-right {
+	font-size: 13px;
+	color: white;
+	padding: 5px 5px 0 5px;
+	background-color: #56a4fe;
+	height: 29px;
+	top: 89px;
+	right: 0px;
+	position: absolute;
+	font-weight: bold;
+	border-bottom-left-radius:5px;
+	border-bottom-right-radius:5px;
+}
+
+nav{
+	margin-top: 2px; 
+}
+
+.nav-right ul{
+    display: flex;
+}
+
+.nav-right ul li{
+    list-style-type: none;
+	text-decoration: none;
+}
+
+.nav-right a
+{ 
+	padding: 0 2px;
+	color:#fff;
+	
+	font-family: Arial,Helvetica,sans-serif;
+}
+
+.nav-right a:hover{
+	text-decoration: none;
+	color: #0d71b9;
+}
+
+select{
+	font-weight: normal;
+    font-size: 11px;
+    margin: 0px;
+    color: black;
+    font-family: Tahoma, Arial, Verdana, Times New Roman;
+    text-decoration: none;
+    width: 50px;
+}
+option{
+	font-weight: normal;
+    display: block;
+    white-space: pre;
+    min-height: 1.2em;
+
+}
+.box-user
+{		
+	position: absolute;
+	width: 406px;
+	min-height: 28px;	
+	right: 0;
+	font-size:12px;	
+	border-bottom-left-radius:75px;
+	background-color: #fff;
+	z-index: 1;
+	top: 0;
+}
+.info-user{
+	width:400px; 
+	text-align: right;
+	margin-top: 2px;
+}
+.info-user p{
+	color: blue;
+	font-size: 10px;
+	font-weight: bold;
+	font-family: Tahoma, Arial, Verdana, Times New Roman;
+}
+
+/*==== Main =====*/
+
+
+.login-table{
+	height: 200px;
+	width: 70%;
+}
+
+.include-table{
+	width: auto;
+	text-align: center;
+	margin: 147px 435px 160px 435px;
+}
+
+.top-table	
+{
+	background-image: url('images/login1-t.gif');
+	background-repeat: no-repeat;
+	height: 88px;
+	width: 487px;
+}
+.middle-table{
+	border-left: solid 3px #fea700;
+	border-right: solid 3px #fea700;
+	text-align: center;
+	width: 487px;
+	height: 100px;
+}
+.info{
+	font-weight: bold;
+	color: dimgray;
+}
+tr, td, input
+{
+	font-weight: normal;
+	font-size: 11px;
+	
+	color: black;
+	font-family: Tahoma, Arial, Verdana, Times New Roman;
+	text-decoration: none;
+	margin: 1px 0px;
+}
+
+.bottom-table	
+{
+	background-image: url('images/login-b.gif');
+	background-repeat: no-repeat;
+	height: 88px;
+	width: 487px;
+}
+
+/*===== Footer =====*/
+
+.footer-top{
+	background-color: #56a4fe;
+	width: 100%;
+	min-height: 65px;
+	display: flex;
+	font-family: Tahoma, Arial, Verdana, Times New Roman;
+	font-size: 12px;
+	padding: 10px 0 0 8px;
+	color: #fff;
+	font-weight: bold;
+}
+.footer-text p{
+    line-height: 0.2;
+}
+.f-navbar ul li a{
+	text-decoration: none;
+	color: #fff;
+	padding: 0 1px;
+}
+
+
+.footer-navbar{
+     right: 11px;
+     position: absolute;
+}
+nav .f-navbar{
+    
+    right: 11px;
+}
+.f-navbar ul{
+	display: flex;
+}
+.f-navbar ul li{
+	list-style-type: none;
+	
+}
+.social .social-navbar ul{
+	display: flex;
+}
+
+.footer-bottom{
+	
+	width: 100%;
+	height: 20px;
+	display: flex;
+	font-family: Tahoma, Arial, Verdana, Times New Roman;
+	font-size: 11px;
+	padding: 10px 0 0 8px;
+}
+.footer-info{
+	right: 11px;
+    position: absolute;
+}
+.footer-info p{
+	 line-height: 0.2;
+}
+.social-navbar ul li{
+    list-style-type: none;
+}
+.social-navbar ul li a{
+	text-decoration: none;
+}
+
+
