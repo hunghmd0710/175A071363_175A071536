@@ -1,0 +1,7 @@
+RewriteEngine On
+
+RewriteRule ^$ /home/index.php
+RewriteRule ^dang-nhap.html$ /home/login.php
+RewriteRule ^dang-ky.html$ /home/register.php
+RewriteRule ^hoi-dap.html$ /home/question.php
+RewriteRule ^tro-giup.html$ /home/help.php
